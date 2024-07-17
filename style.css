@@ -33,3 +33,7 @@ nav ul {
   border: 1px solid #ccc;
   cursor: pointer;
 }
+span img {
+  width: 5rem;
+  height: 3rem;
+}
