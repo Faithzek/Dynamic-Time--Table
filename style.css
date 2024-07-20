@@ -141,7 +141,7 @@ span img {
 }
 
 .explore:hover {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 @media (max-width: 768px) {
@@ -217,17 +217,17 @@ span img {
 }
 .more {
   margin: 1rem;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   border: 1px solid #ccc;
   cursor: pointer;
   border-radius: 1rem;
   transition: 0.3s;
 }
 .more:hover {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
@@ -369,6 +369,22 @@ span img {
 .timetable h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: white;
+}
+.leader .add,
+.remove {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.leader .add:hover,
+.remove:hover {
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 /**************************************************Contact****************************************************************/
