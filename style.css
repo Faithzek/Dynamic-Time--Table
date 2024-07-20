@@ -371,22 +371,78 @@ span img {
   margin-bottom: 2rem;
   color: white;
 }
+.leader {
+  display: flex;
+  gap: 1rem;
+}
 .leader .add,
-.remove {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.leader .remove {
+  padding: 0.5rem 2rem;
   border-radius: 2rem;
   border: none;
   cursor: pointer;
   transition: 0.35s;
 }
 .leader .add:hover,
-.remove:hover {
+.leader .remove:hover {
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
 }
+.classes {
+  width: 90vw;
+  height: auto;
+  border: 1px solid greenyellow;
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: auto;
+  cursor: po;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead th {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+tbody th {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+table th,
+table td {
+  padding: 0.5rem;
+  border: 1px solid white;
+}
+@media (max-width: 768px) {
+  .timetable {
+    padding: 1rem 0.5rem;
+  }
+  .timetable h3 {
+    font-size: 1.5rem;
+  }
+  .leader {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .leader .add,
+  .leader .remove {
+    padding: 0.5rem 1rem;
+  }
+  .classes {
+    width: 100%;
+  }
+  table {
+    font-size: 1rem;
+  }
+  thead th,
+  tbody th {
+    font-size: 0.9rem;
+  }
+}
+
 /**************************************************Contact****************************************************************/
 .calls {
   background-image: linear-gradient(
